@@ -1,0 +1,31 @@
+package pl.edu.ur.polab4;
+
+import java.util.Scanner;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Patryk
+ */
+public class NewMain2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    
+    System.out.println("---------------------");
+    Scanner s = new Scanner(System.in)   ; 
+    NewMain Student3 = new NewMain(s.nextLine(),s.nextLine(),s.nextInt(),s.nextLine(),s.nextInt());
+        Student3.wyswietl();
+      
+ 
+   
+    
+}
